@@ -14,7 +14,7 @@
 ## Trying Some Commands
 <img width="570" alt="Screen Shot 2022-04-07 at 4 40 36 PM" src="https://user-images.githubusercontent.com/98505287/162337720-6de440da-070c-43e7-86a1-0297fe5fe74e.png">
 1. Commands can be done on our desktop and after ssh to the remote server.
-2. Commands allow us to view certain details about the account (even *hidden* details!), the commands that will be useful include: `ls(list files), ls -l(longer format of list), ls -a(hidden files), cd /(root directory), cd(home directory), cd ..(previous directory), pwd(working directory), cat filename(display contents of file), javac file; java fileclass(compile and run), and cp filetocopy filedestination(copies contents of file1 to file *destination*)`.
+2. Commands allow us to view certain details about the account (even *hidden* details!), the commands that will be useful include: `ls(list files), ls -l(longer format of list), ls -a(hidden files), cd /(root directory), cd(home directory), cd ..(previous directory), pwd(working directory), cat filename(display contents of file), javac file; java fileclass(compile and run), and cp filetocopy filedestination(copies contents of file1 to file destination)`.
 3. Another helpful tip with runtime would be to combine the commands with **";"** which would run all your commands all at once!
 
 ## Moving Files with scp
