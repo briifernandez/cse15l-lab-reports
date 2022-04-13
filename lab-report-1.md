@@ -38,4 +38,4 @@ cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`. Now we are able to ssh **wit
 2. By setting an SSH key we are able to login without a password and utilizing the up-arrow for previous commands can make the proccess more efficient!
 
 
-[Link to my site :)](https://briifernandez.github.io/cse15l-lab-reports/index.html)
+[Link to my site :)](https://briifernandez.github.io/cse15l-lab-reports/index.html) 
