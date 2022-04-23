@@ -1,10 +1,12 @@
 # Week 4 Lab Report 2 
 
 ## Github Code Change
-<img width="1603" alt="Screen Shot 2022-04-22 at 6 13 49 PM" src="https://user-images.githubusercontent.com/98505287/164850505-b8e902ec-eed2-40ab-8f6f-604e059149e4.png">
+<img width="1579" alt="Screen Shot 2022-04-22 at 6 50 18 PM" src="https://user-images.githubusercontent.com/98505287/164861975-ac4bbb89-4732-4b3f-b166-2e43fe9fe208.png">
+
+
 
 ## Link to test file for failure-inducing inputs
-https://github.com/briifernandez/markdown-parser/blob/main/fail-inducinginputs.md
+[Link to test file](https://github.com/briifernandez/markdown-parser/blob/main/fail-inducinginputs.md)
 
 ## Symptom of failure-inducing input & commit message history
 <img width="740" alt="Screen Shot 2022-04-22 at 6 43 15 PM" src="https://user-images.githubusercontent.com/98505287/164861837-68813844-31be-428c-87e2-aeb621609db6.png">
