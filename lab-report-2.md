@@ -5,7 +5,7 @@ Code Change: By adding in `if(openBracket == -1) {break;}`, we can see progress 
 <img width="968" alt="Screen Shot 2022-04-23 at 6 34 44 PM" src="https://user-images.githubusercontent.com/98505287/164951981-d054d42a-f914-4449-a2f4-0d74da455254.png">
 
 
-### Link to test file for failure-inducing input
+### Link to test file for failure-inducing input:
 [Link to testone.md](https://github.com/briifernandez/markdown-parser/blob/main/testone.md)
 
 
@@ -27,7 +27,7 @@ Code Change: After the failure inducing output, the currentIndex was still oscil
 <img width="977" alt="Screen Shot 2022-04-23 at 7 02 08 PM" src="https://user-images.githubusercontent.com/98505287/164952634-8c55c84e-cae6-4f91-849a-6c5a53dae675.png">
 
 
-### Link to test file for failure-inducing input
+### Link to test file for failure-inducing input:
 [Link to testtwo.md](https://github.com/briifernandez/markdown-parser/blob/main/testtwo.md)
 
 
@@ -46,7 +46,7 @@ The bug was fixed for failure-inducing input one by having the `openParen == -1`
 Code Change: For the final code change, ` if(openParen == -1 || openBracket == -1 || closeParen == -1 || closeBracket == -1) {break;}` were the conditions for the while loop in order to create a break in the loop. This fix also resulted in the output of 0 for currentIndex and [], which fixes the symptom, and allows proper formated links to be parsed correctly. 
 <img width="976" alt="Screen Shot 2022-04-23 at 7 09 50 PM" src="https://user-images.githubusercontent.com/98505287/164952968-9730c58c-9527-4bbc-8b7d-8cac18b6bbc3.png">
 
-### Link to test file for failure-inducing input
+### Link to test file for failure-inducing input:
 [Link to testthree.md](https://github.com/briifernandez/markdown-parser/blob/main/testthree.md)
 
 ### Symptom of failure-inducing input & commit message history
