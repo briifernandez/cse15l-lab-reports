@@ -44,6 +44,7 @@ The bug at this current stage of the program is within the `public static ArrayL
 ### Relationship between bug, symptom, & failure-inducing input
 The bug was fixed for failure-inducing input one by having the `openParen == -1` condition in the while loop, however for a failure-inducing input that has only parentheses, it caused the bug(insufficient conditions for the while loop) to persist since different conditions can also cause a while loop to continue. For the failure-inducing input in testtwo.md, it is an input with only parentheses and is far apart in the file. By running testthree.md, the symptom resulted in currentIndex having the value of 44 infinitely, which is from the bug being executed.  
 
+---
 ## Github Code Change #3
 **Code Change:** For the final code change, ` if(openParen == -1 || openBracket == -1 || closeParen == -1 || closeBracket == -1) {break;}` were the conditions for the while loop in order to create a break in the loop. This fix also resulted in the output of 0 for currentIndex and [], which fixes the symptom, and allows proper formated links to be parsed correctly. The file test-file.md also was fixed and had the output of `[https://something.com, some-thing.html]`.
 <img width="976" alt="Screen Shot 2022-04-23 at 7 09 50 PM" src="https://user-images.githubusercontent.com/98505287/164952968-9730c58c-9527-4bbc-8b7d-8cac18b6bbc3.png">
