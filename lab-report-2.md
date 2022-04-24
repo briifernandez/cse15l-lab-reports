@@ -14,7 +14,7 @@
 
 <img width="751" alt="Screen Shot 2022-04-23 at 5 49 51 PM" src="https://user-images.githubusercontent.com/98505287/164951119-35907d77-29ae-4879-8b5c-453d1193c338.png">
 
-<span style="color:blue">**Commit message history:**</span>
+**Commit message history:**
 
 <img width="1231" alt="Screen Shot 2022-04-23 at 5 55 30 PM" src="https://user-images.githubusercontent.com/98505287/164951103-56c751eb-9ad1-4864-8705-0f7fbfc601f6.png">
 
