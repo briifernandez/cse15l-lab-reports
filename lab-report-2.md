@@ -1,7 +1,7 @@
 # Week 4 Lab Report 2 
 
 ## Github Code Change #1
-Code Change: By adding in `if(openBracket == -1) {break;}`, we can see progress in fixing the bug as it stops producing the StringIndexOutOfBoundsException. After testing testone.md with this change, it produces the output of 0 for currentIndex and [].
+**Code Change:** By adding in `if(openBracket == -1) {break;}`, we can see progress in fixing the bug as it stops producing the StringIndexOutOfBoundsException. After testing testone.md with this change, it produces the output of 0 for currentIndex and [].
 <img width="968" alt="Screen Shot 2022-04-23 at 6 34 44 PM" src="https://user-images.githubusercontent.com/98505287/164951981-d054d42a-f914-4449-a2f4-0d74da455254.png">
 
 
@@ -10,11 +10,12 @@ Code Change: By adding in `if(openBracket == -1) {break;}`, we can see progress 
 
 
 ### Symptom of failure-inducing input & commit message history
-Output at command line:
+**Output at command line:**
 
 <img width="751" alt="Screen Shot 2022-04-23 at 5 49 51 PM" src="https://user-images.githubusercontent.com/98505287/164951119-35907d77-29ae-4879-8b5c-453d1193c338.png">
 
-Commit message history:
+**Commit message history:**
+
 <img width="1231" alt="Screen Shot 2022-04-23 at 5 55 30 PM" src="https://user-images.githubusercontent.com/98505287/164951103-56c751eb-9ad1-4864-8705-0f7fbfc601f6.png">
 
 
@@ -60,7 +61,7 @@ The bug was fixed for failure-inducing input one by having the `openParen == -1`
 <img width="987" alt="Screen Shot 2022-04-23 at 7 12 48 PM" src="https://user-images.githubusercontent.com/98505287/164953062-d9397242-1348-4b70-9a4c-8c77403af9ed.png">
 
 ### Relationship between bug, symptom, & failure-inducing input
-The bug continued to be the lack of condition statements for the while loop, and after running testthree.md (which contained syntax errors of no close parentheses and no close bracket), it caused the symptom to be a StringIndexOutOfBoundsException. The failure-inducing input causes the bug to execute since `closeParen == -1 || closeBracket == -1` was not included in the condition statements. To fix the failure-inducing input from causing symptoms and to fix this bug from executing, `if(openParen == -1 || openBracket == -1 || closeParen == -1 || closeBracket == -1) {break;}` became the conditions for the while loop. 
+The bug continued to be the lack of condition statements for the while loop, and after running testthree.md (which contained syntax errors of no close parentheses and no close bracket), it caused the symptom to be a StringIndexOutOfBoundsException. The failure-inducing input causes the bug to execute since `closeParen == -1 || closeBracket == -1` was not included in the condition statements. To fix the failure-inducing input from causing symptoms and to fix this bug from executing, `if(openParen == -1 || openBracket == -1 || closeParen == -1 || closeBracket == -1) {break;}` became the _conditions_ for the while loop. 
 
 
 
