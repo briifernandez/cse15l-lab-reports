@@ -22,7 +22,7 @@ The bug at this current stage of the program is within the `public static ArrayL
 
 ////////
 ## Github Code Change #2
-Code Change: After the failure inducing output, the currentIndex was still oscillating infinitely. To fix this symptom, adding `if(openParen == -1 || openBracket == -1) {break;}` results in the output of 0 for currentIndex and [].
+Code Change: After the failure inducing output, the currentIndex was still oscillating infinitely. To fix this symptom, adding `if(openParen == -1 || openBracket == -1) {break;}` results in the output of 0 for currentIndex and [], which fixes the symptom.
 <img width="977" alt="Screen Shot 2022-04-23 at 7 02 08 PM" src="https://user-images.githubusercontent.com/98505287/164952634-8c55c84e-cae6-4f91-849a-6c5a53dae675.png">
 
 
