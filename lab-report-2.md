@@ -65,7 +65,6 @@ The bug was fixed for failure-inducing input one by having the `openParen == -1`
 The bug continued to be the lack of condition statements for the while loop, and after running testthree.md (which contained syntax errors of no close parentheses and no close bracket), it caused the symptom to be a StringIndexOutOfBoundsException. The failure-inducing input causes the bug to execute since `closeParen == -1 || closeBracket == -1` was not included in the condition statements. To fix the failure-inducing input from causing symptoms and to fix this bug from executing, `if(openParen == -1 || openBracket == -1 || closeParen == -1 || closeBracket == -1) {break;}` became the _conditions_ for the while loop. 
 
 
-
 [Return to my site's homepage :)](https://briifernandez.github.io/cse15l-lab-reports/index.html) 
 
 
