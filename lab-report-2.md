@@ -33,6 +33,7 @@ Code Change: After the failure inducing output, the currentIndex was still oscil
 ### Symptom of failure-inducing input & commit message history
 Output at command line:
 <img width="533" alt="Screen Shot 2022-04-23 at 6 39 44 PM" src="https://user-images.githubusercontent.com/98505287/164952063-91c2c8fd-097a-4b75-9857-4796a7e830eb.png">
+
 Commit message history:
 <img width="900" alt="Screen Shot 2022-04-23 at 6 43 44 PM" src="https://user-images.githubusercontent.com/98505287/164952132-cde0493a-6879-44bf-b678-d3e07cf6029a.png">
 
