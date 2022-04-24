@@ -1,7 +1,7 @@
 # Week 4 Lab Report 2 
 
 ## Github Code Change #1
-By adding in 
+Code Change: By adding in `if(openBracket == -1 || closeBracket == -1 || openParen == -1 || closeParen == -1) {break;}`, we can see progress in fixing the bug as it stops producing the StringIndexOutOfBoundsException. Instead after testing testone.md with this change, it produces the output of 0 for currentIndex and [].
 <img width="1272" alt="Screen Shot 2022-04-23 at 5 52 46 PM" src="https://user-images.githubusercontent.com/98505287/164951041-73314e75-82fa-41fb-a823-ac39a4671df9.png">
 
 
