@@ -11,6 +11,7 @@ Code Change: By adding in `if(openBracket == -1) {break;}`, we can see progress 
 
 ### Symptom of failure-inducing input & commit message history
 Output at command line:
+
 <img width="751" alt="Screen Shot 2022-04-23 at 5 49 51 PM" src="https://user-images.githubusercontent.com/98505287/164951119-35907d77-29ae-4879-8b5c-453d1193c338.png">
 
 Commit message history:
@@ -33,6 +34,7 @@ Code Change: After the failure inducing output, the currentIndex was still oscil
 
 ### Symptom of failure-inducing input & commit message history
 Output at command line:
+
 <img width="533" alt="Screen Shot 2022-04-23 at 6 39 44 PM" src="https://user-images.githubusercontent.com/98505287/164952063-91c2c8fd-097a-4b75-9857-4796a7e830eb.png">
 
 Commit message history:
