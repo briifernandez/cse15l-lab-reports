@@ -37,7 +37,7 @@ Commit message history:
 <img width="900" alt="Screen Shot 2022-04-23 at 6 43 44 PM" src="https://user-images.githubusercontent.com/98505287/164952132-cde0493a-6879-44bf-b678-d3e07cf6029a.png">
 
 ### Relationship between bug, symptom, & failure-inducing input
-The bug was fixed for failure-inducing input one 
+The bug was fixed for failure-inducing input one by having the `openParen == -1` as the condition for a break in the while loop, however for a failure-inducing input that has only parentheses, it caused the bug(insufficient conditions for the while loop) to persist since different conditions can also cause a while loop to continue. For the failure-inducing input in testtwo.md, it is an input with only parentheses and is far apart in the file. After running the file in the command line, the symptom resulting in currentIndex having the value of 44 infinitely, which is from the bug being executed.  
 
 
 
