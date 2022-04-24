@@ -54,6 +54,7 @@ Output at command line:
 <img width="734" alt="Screen Shot 2022-04-23 at 7 11 52 PM" src="https://user-images.githubusercontent.com/98505287/164953021-16274f0b-91a7-43dd-b793-1baac2c63b88.png">
 
 <u>Commit message history: </u>
+
 <img width="987" alt="Screen Shot 2022-04-23 at 7 12 48 PM" src="https://user-images.githubusercontent.com/98505287/164953062-d9397242-1348-4b70-9a4c-8c77403af9ed.png">
 
 ### Relationship between bug, symptom, & failure-inducing input
