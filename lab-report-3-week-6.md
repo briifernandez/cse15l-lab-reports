@@ -1,14 +1,20 @@
 # Week 6 Lab Report 3 
 
 ## Streamlining ssh Configuration
-`.ssh/config` file:
-<img width="390" alt="Screen Shot 2022-05-06 at 8 03 49 PM" src="https://user-images.githubusercontent.com/98505287/167235747-af4a2c01-5efd-4572-89da-d5cfd26590ae.png">
- 
+`.ssh/config` **file**:
+To create the config file that will allow us to ssh by using an alias, I had first used the command `cd .ssh` in order to change my directory into the .ssh directory. Then, I used the command `vim config` to create config as a new file. I procceded to press `i` which allows us to insert text into the file directly in the terminal. When all the text is typed out, I pressed `esc` then typed `:wq` which saves the text and exits. After the Host, I choose the alias briana. 
 
-`ssh` command:
+<img width="390" alt="Screen Shot 2022-05-06 at 8 03 49 PM" src="https://user-images.githubusercontent.com/98505287/167235747-af4a2c01-5efd-4572-89da-d5cfd26590ae.png">
+
+
+`ssh` **command**:
+To ssh into our account on the remote server, I simply typed `ssh briana` which is a more efficient way in accessing our account! The config file allows us to proceed without using our account name. 
+
 <img width="564" alt="Screen Shot 2022-05-06 at 8 04 37 PM" src="https://user-images.githubusercontent.com/98505287/167235765-86ae55f1-448b-4d96-92eb-0e43a00f2f6d.png">
 
-`scp` command:
+`scp` **command**:
+Originally, the `scp` command would require our account name, but instead we can copy a file onto our account by typing `scp filename alias:~/`. We can see that the file is in our account by typing `ls`.
+
 <img width="808" alt="Screen Shot 2022-05-06 at 8 07 11 PM" src="https://user-images.githubusercontent.com/98505287/167235771-dee53836-0c19-4a56-b117-be64360954a9.png">
 
 
@@ -17,26 +23,8 @@
 
 
 ---
-## Github Code Change #2
-**Code Change:** After the failure inducing output, the currentIndex was still oscillating infinitely. To fix this symptom, adding `if(openParen == -1 || openBracket == -1) {break;}` results in the output of 0 for currentIndex and [], which fixes the symptom.
-<img width="977" alt="Screen Shot 2022-04-23 at 7 02 08 PM" src="https://user-images.githubusercontent.com/98505287/164952634-8c55c84e-cae6-4f91-849a-6c5a53dae675.png">
+## Setup GitHub Access from ieng6
 
-
-### Link to test file for failure-inducing input:
-[Link to testtwo.md](https://github.com/briifernandez/markdown-parser/blob/main/testtwo.md)
-
-
-### Symptom of failure-inducing input & commit message history
-**Output at command line:**
-
-<img width="533" alt="Screen Shot 2022-04-23 at 6 39 44 PM" src="https://user-images.githubusercontent.com/98505287/164952063-91c2c8fd-097a-4b75-9857-4796a7e830eb.png">
-
-**Commit message history:**
-
-<img width="900" alt="Screen Shot 2022-04-23 at 6 43 44 PM" src="https://user-images.githubusercontent.com/98505287/164952132-cde0493a-6879-44bf-b678-d3e07cf6029a.png">
-
-### Relationship between bug, symptom, & failure-inducing input
-The bug was fixed for failure-inducing input one by having the `openParen == -1` condition in the while loop, however for a failure-inducing input that has only parentheses, it caused the bug(insufficient conditions for the while loop) to persist since different conditions can also cause a while loop to continue. For the failure-inducing input in testtwo.md, it is an input with only parentheses and is far apart in the file. By running testthree.md, the symptom resulted in currentIndex having the value of 44 infinitely, which is from the bug being executed.  
 
 ---
 ## Github Code Change #3
