@@ -27,20 +27,32 @@ Originally, the `scp` command would require our account name, but instead we can
 ## Setup GitHub Access from ieng6
 
 **public key stored on Github:**
+To store a public key on GitHub, I would have to copy the contents of the public key by using the command `pbcopy < ~/.ssh/id_rsa.pub`. I would press New SSH key, then paste the contents over and include the name as Personal Macbook. 
 <img width="970" alt="Screen Shot 2022-05-07 at 10 51 43 PM" src="https://user-images.githubusercontent.com/98505287/167283786-df5ba76d-6c6c-4e1c-8e1b-06dce31a73ef.png">
 
 
+
 **public key stored on user account:**
+The public key is the file `id_rsa.pub`, and it was `scp` into the user account. I used `mv id_rsa.pub .ssh` to move the file into the .ssh directory.
+
 <img width="448" alt="Screen Shot 2022-05-07 at 10 55 18 PM" src="https://user-images.githubusercontent.com/98505287/167283822-cf3fac8c-1afa-4cd3-9fcd-8395de13c461.png">
 
 **private key stored on user account:**
+The private key is the file `id_rsa`, and it was `scp` into the user account. I used `mv id_rsa .ssh` to move the file into the .ssh directory.
 <img width="448" alt="Screen Shot 2022-05-07 at 10 55 18 PM" src="https://user-images.githubusercontent.com/98505287/167283837-1c6d0706-5cfe-45f8-ab03-0cb1bb326274.png">
 
+*Side Note:* I also created a `config` file in the .ssh directory. It contains the Host, HostName, User, and IdentityFile which is similar to the `config` file that is on my local machine. 
+
+*Personal Token:* After cloning a repository onto the user account, I had to generate a personal token on GitHub in order to have the ability to commit and push. I copied the token and used the command `git remote set-url origin https://<token>@github.com/<username>/<repo>` which configures the personal token.
+
 `git` commands in ieng6 account:
+Firstly, to pull updates to the repository I used `git pull`. Then, I used `vim <filename>` to update any changes I would like to make to the file. Afterwards, I moved the file to the staging area by using `git add <filename>`. When the file is ready to be commited, I used the command `git commit -a -m "<commit message>"` which commits the file and avoids the commit message. Final step is to `git push` and a message should appear!
+
 <img width="656" alt="Screen Shot 2022-05-07 at 10 59 26 PM" src="https://user-images.githubusercontent.com/98505287/167283943-f87c3edc-1048-4998-88f6-15b9a37ba609.png">
 
-**Link to commit**
-[Commit Made](https://github.com/briifernandez/markdown-parser/commit/05e7d3980c316092a34a139b42d68f3d5f011ab3)
+**Link to commit:**
+
+[Commit Made on User Account](https://github.com/briifernandez/markdown-parser/commit/05e7d3980c316092a34a139b42d68f3d5f011ab3)
 
 
 ---
