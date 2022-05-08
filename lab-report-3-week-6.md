@@ -22,35 +22,30 @@ Originally, the `scp` command would require our account name, but instead we can
 
 
 
+
 ---
 ## Setup GitHub Access from ieng6
 
 **public key stored on Github:**
+<img width="970" alt="Screen Shot 2022-05-07 at 10 51 43 PM" src="https://user-images.githubusercontent.com/98505287/167283786-df5ba76d-6c6c-4e1c-8e1b-06dce31a73ef.png">
 
 
 **public key stored on user account:**
+<img width="448" alt="Screen Shot 2022-05-07 at 10 55 18 PM" src="https://user-images.githubusercontent.com/98505287/167283822-cf3fac8c-1afa-4cd3-9fcd-8395de13c461.png">
 
+**private key stored on user account:**
+<img width="448" alt="Screen Shot 2022-05-07 at 10 55 18 PM" src="https://user-images.githubusercontent.com/98505287/167283837-1c6d0706-5cfe-45f8-ab03-0cb1bb326274.png">
+
+`git` commands in ieng6 account:
+<img width="656" alt="Screen Shot 2022-05-07 at 10 59 26 PM" src="https://user-images.githubusercontent.com/98505287/167283943-f87c3edc-1048-4998-88f6-15b9a37ba609.png">
+
+**Link to commit**
+[Commit Made](https://github.com/briifernandez/markdown-parser/commit/05e7d3980c316092a34a139b42d68f3d5f011ab3)
 
 
 ---
-## Github Code Change #3
-**Code Change:** For the final code change, `if(openParen == -1 || openBracket == -1 || closeParen == -1 || closeBracket == -1) {break;}` were the conditions for the while loop in order to create a break in the loop. This fix also resulted in the output of 0 for currentIndex and [], which fixes the symptom, and allows proper formated links to be parsed correctly. The file test-file.md also was fixed and had the output of `[https://something.com, some-thing.html]`.
-<img width="976" alt="Screen Shot 2022-04-23 at 7 09 50 PM" src="https://user-images.githubusercontent.com/98505287/164952968-9730c58c-9527-4bbc-8b7d-8cac18b6bbc3.png">
+## Copy Whole Directories with `scp -r`
 
-### Link to test file for failure-inducing input:
-[Link to testthree.md](https://github.com/briifernandez/markdown-parser/blob/main/testthree.md)
-
-### Symptom of failure-inducing input & commit message history
-**Output at command line:**
-
-<img width="734" alt="Screen Shot 2022-04-23 at 7 11 52 PM" src="https://user-images.githubusercontent.com/98505287/164953021-16274f0b-91a7-43dd-b793-1baac2c63b88.png">
-
-**Commit message history:**
-
-<img width="987" alt="Screen Shot 2022-04-23 at 7 12 48 PM" src="https://user-images.githubusercontent.com/98505287/164953062-d9397242-1348-4b70-9a4c-8c77403af9ed.png">
-
-### Relationship between bug, symptom, & failure-inducing input
-The bug continued to be the lack of condition statements for the while loop, and after running testthree.md (which contained syntax errors of no close parentheses and no close bracket), it caused the symptom to be a StringIndexOutOfBoundsException. The failure-inducing input causes the bug to execute since `closeParen == -1 || closeBracket == -1` was not included in the condition statements. To fix the failure-inducing input from causing symptoms and to fix this bug from executing, `if(openParen == -1 || openBracket == -1 || closeParen == -1 || closeBracket == -1) {break;}` became the _conditions_ for the while loop. 
 
 
 [Return to my site's homepage :)](https://briifernandez.github.io/cse15l-lab-reports/index.html) 
