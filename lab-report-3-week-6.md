@@ -25,6 +25,12 @@ Originally, the `scp` command would require our account name, but instead we can
 ---
 ## Setup GitHub Access from ieng6
 
+**public key stored on Github:**
+
+
+**public key stored on user account:**
+
+
 
 ---
 ## Github Code Change #3
