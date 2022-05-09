@@ -59,11 +59,12 @@ Firstly, to pull updates to the repository I used `git pull`. Then, I used `vim 
 
 ---
 ## Copy Whole Directories with `scp -r`
-**Copying markdownparse directory into ieng6 account**
+**Copying markdownparse directory into ieng6 account:**
+To 
 <img width="738" alt="Screen Shot 2022-05-08 at 10 04 35 PM" src="https://user-images.githubusercontent.com/98505287/167344643-c6dfca1d-a014-4c1e-aab6-7ccc75bd038b.png">
 
 
-**Logging in and compiling**
+**Logging in and compiling (also combining commands with `;` ):**
 
 <img width="952" alt="Screen Shot 2022-05-08 at 10 05 45 PM" src="https://user-images.githubusercontent.com/98505287/167344544-6dfb318c-51db-4f5f-950e-6c5905b77c9f.png">
 <img width="958" alt="Screen Shot 2022-05-08 at 10 16 42 PM" src="https://user-images.githubusercontent.com/98505287/167345080-9d35bbe7-42ea-4e05-bf31-2aa5be8254d7.png">
