@@ -60,13 +60,17 @@ Firstly, to pull updates to the repository I used `git pull`. Then, I used `vim 
 ---
 ## Copy Whole Directories with `scp -r`
 **Copying markdownparse directory into ieng6 account:**
-To 
+After copying the markdownparse directory through multiple commands, it would appear on my ieng6 account. To check if it is copied properly, I used the command `cd` and `ls`. 
+
+
 <img width="738" alt="Screen Shot 2022-05-08 at 10 04 35 PM" src="https://user-images.githubusercontent.com/98505287/167344643-c6dfca1d-a014-4c1e-aab6-7ccc75bd038b.png">
 
 
 **Logging in and compiling (also combining commands with `;` ):**
+I combined the commands into one line in order to make the process more efficient. The command `cd; cd Desktop; scp -r markdownparse briana:~/; ssh briana;` would allow me to change directories, copy the markdownparse directory into my user account, and log into the remote server. To compile and run tests after logging in, I used the command `cd; cd markdownparse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar tester.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore tester` which would change directories into markdownparse and complie + run the tests.
 
 <img width="952" alt="Screen Shot 2022-05-08 at 10 05 45 PM" src="https://user-images.githubusercontent.com/98505287/167344544-6dfb318c-51db-4f5f-950e-6c5905b77c9f.png">
+
 <img width="958" alt="Screen Shot 2022-05-08 at 10 16 42 PM" src="https://user-images.githubusercontent.com/98505287/167345080-9d35bbe7-42ea-4e05-bf31-2aa5be8254d7.png">
 
 
