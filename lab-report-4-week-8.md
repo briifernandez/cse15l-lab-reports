@@ -27,7 +27,7 @@
 
 ## Improvements to My Implementation:
 
-1. In snippet one, the test case did not pass and I think there is a small code change that can allow my program to work. The code change would be to consider backticks and I need to create an if statement in my while loop that breaks the loop/ not consider the string a link if the backticks are outside of closeBracket, openBracket, or openParen.  Otherwise, the backticks inside the brackets or parentheses have been considered a link, and backticks outsie of closeParen still allowed the String to be a link.
+1. In snippet one, the test case did not pass and I think there is a small code change that can allow my program to work. The code change would be to consider backticks and I need to create an if statement in my while loop that breaks the loop/ not consider the string a link if the backticks are outside of closeBracket, openBracket, or openParen.  Otherwise, the backticks inside the brackets or parentheses have been considered a link, and backticks outside of closeParen still allowed the String to be a link.
 
 2. For snippet two, the test case I wrote for my implementation had passed and it fixes the nest parentheses and brackets issue. The code change that allowed it to work was that the while loop had an if statement that addressed if openBracket, closeBracket, openParen, or closeParen were not present, the loop would have to break.
 
