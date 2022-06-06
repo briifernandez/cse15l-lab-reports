@@ -26,7 +26,7 @@ Expected Output:
 
 
 <img width="645" alt="Screen Shot 2022-06-05 at 9 59 37 PM" src="https://user-images.githubusercontent.com/98505287/172097697-2c3f1775-a889-47a6-b323-395f91505130.png">
-There are no links as an expected output.
+There are no links as an expected output. --> []
 
 ### Test 439:
 -The implementation in the markdown parser repository on my ieng6 account was correct.
@@ -42,7 +42,7 @@ Expected Output:
 
 <img width="339" alt="Screen Shot 2022-06-05 at 10 06 15 PM" src="https://user-images.githubusercontent.com/98505287/172098251-00a6cfe4-a72e-4d63-85cc-b13849d152fc.png">
 
-There are no links as an expected output.
+There are no links as an expected output. --> []
 
 ## Changes to the implementation:
 For the implementation on my local and for test #103, I noticed there is a bug in the code since it causes an infinite loop to occur as well as improper finding of the links in the test cases. Although this test case does not contain any links, the fix to the code would involve having to make more if statements that provide a break to the loop below the highlighted code in the screenshot where it continues the loop. When it comes to having a test case with multiple characters like ", <,>,', etc there would need to be a piece of code that would determine that it is not a link if it has improper structure or if it has characters that is hindering the structure. The code needs to take in account characters while continuing to keep track of brackets, braces, code blocks and indices.
