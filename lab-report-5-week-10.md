@@ -1,39 +1,47 @@
 # Week 10 Lab Report 5 
 
-## Repositories Used:
-[My markdown-parse Repository](https://github.com/briifernandez/markdown-parser) 
+## Tests with different results:
+I was able to find the different results between implementations by using vimdiff which shows the side by side comparisons of the tests. After running make test, I was able to see the differences in the result.txt files.
+<img width="650" alt="Screen Shot 2022-06-05 at 7 48 13 PM" src="https://user-images.githubusercontent.com/98505287/172097073-9a88f5a8-6775-4832-b9ef-989a1566fe69.png">
+<img width="623" alt="Screen Shot 2022-06-05 at 9 53 02 PM" src="https://user-images.githubusercontent.com/98505287/172097123-9c77bce9-b621-4a08-bb04-54ac8782baa1.png">
 
 
-[Week 7 Reviewed Repository](https://github.com/nathom/markdown-parser) 
 
-## Expected Output for All Snippets:
-<img width="488" alt="Screen Shot 2022-05-22 at 9 45 28 AM" src="https://user-images.githubusercontent.com/98505287/169706573-2c275533-23b1-44a2-8557-bfcb9b851db5.png">
+## Test file with different results:
+[Test file #103 in provided repository](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/103.html.test) 
 
-## 3 Test Cases for my Implementation :
-<img width="611" alt="Screen Shot 2022-05-22 at 9 54 55 AM" src="https://user-images.githubusercontent.com/98505287/169706643-03d96ed2-ee17-46c7-a3be-27c9ccef83a2.png">
-
-## Tests that Failed:
-<img width="934" alt="Screen Shot 2022-05-22 at 9 55 06 AM" src="https://user-images.githubusercontent.com/98505287/169706677-9c21ad76-5f79-4c23-8e23-cb94bb36a6aa.png">
-
-## 3 Test Cases for Reviewed Implementation :
-
-<img width="605" alt="Screen Shot 2022-05-22 at 10 06 25 AM" src="https://user-images.githubusercontent.com/98505287/169707032-061bfac1-f215-41b8-bd1f-e27c01136de4.png">
+[Test file #439 in provided repository](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/439.html.test) 
 
 
-## Tests that Failed:
+## For each test:
+### Test 103:
+-The implementation in the markdown parser repository on my ieng6 account was correct.
 
-<img width="852" alt="Screen Shot 2022-05-22 at 10 07 07 AM" src="https://user-images.githubusercontent.com/98505287/169707059-be58b2a4-94a9-4579-9766-c9d070c7bbfa.png">
+Actual Output:
+<img width="202" alt="Screen Shot 2022-06-05 at 10 03 11 PM" src="https://user-images.githubusercontent.com/98505287/172097988-70ecb241-331c-498e-a3a7-1ea3a3364bcf.png">
+
+Expected Output:
+<img width="645" alt="Screen Shot 2022-06-05 at 9 59 37 PM" src="https://user-images.githubusercontent.com/98505287/172097697-2c3f1775-a889-47a6-b323-395f91505130.png">
+There are no links as an expected output.
+
+### Test 439:
+-The implementation on local is correct, since it was able to give an output
 
 
-## Improvements to My Implementation:
+Actual Output:
+<img width="208" alt="Screen Shot 2022-06-05 at 10 04 56 PM" src="https://user-images.githubusercontent.com/98505287/172098151-437e8d7d-6c9c-4d0f-b98d-20f87d69e831.png">
 
-1. In snippet one, the test case did not pass and I think there is a small code change that can allow my program to work. The code change would be to consider backticks and I need to create an if statement in my while loop that breaks the loop/ not consider the string a link if the backticks are outside of closeBracket, openBracket, or openParen.  Otherwise, the backticks inside the brackets or parentheses have been considered a link, and backticks outside of closeParen still allowed the String to be a link.
+Expected Output:
+<img width="339" alt="Screen Shot 2022-06-05 at 10 06 15 PM" src="https://user-images.githubusercontent.com/98505287/172098251-00a6cfe4-a72e-4d63-85cc-b13849d152fc.png">
 
-2. For snippet two, the test case I wrote for my implementation had passed and it fixes the nest parentheses and brackets issue. The code change that allowed it to work was that the while loop had an if statement that addressed if openBracket, closeBracket, openParen, or closeParen were not present, the loop would have to break.
+There are no links as an expected output.
 
-3. In snippet three, my test failed and I think there is a small code change that could make my program work. The code change would have to consider line breaks by continuing the loop until the next openBracket is detected or if text is detected, so it would determine where to stop looking for a closeParen.
+## Changes to the implementation:
+
+
 
 
 
 
 [Return to my site's homepage :)](https://briifernandez.github.io/cse15l-lab-reports/index.html) 
+
