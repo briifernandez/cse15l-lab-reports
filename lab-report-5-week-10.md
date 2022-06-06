@@ -15,7 +15,7 @@ I was able to find the different results between implementations by using vimdif
 
 ## For each test:
 ### Test 103:
--The implementation in the markdown parser repository on my ieng6 account was correct.
+-The implementation on local is correct, since it was able to give an output.
 
 Actual Output:
 
@@ -29,7 +29,7 @@ Expected Output:
 There are no links as an expected output.
 
 ### Test 439:
--The implementation on local is correct, since it was able to give an output
+-The implementation in the markdown parser repository on my ieng6 account was correct.
 
 
 Actual Output:
