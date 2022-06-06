@@ -1,7 +1,7 @@
 # Week 10 Lab Report 5 
 
 ## Tests with different results:
-I was able to find the different results between implementations by using vimdiff which shows the side by side comparisons of the tests. After running make test, I was able to see the differences in the result.txt files.
+I was able to find the different results between implementations by using vimdiff which shows the side by side comparisons of the tests. After running make test and bash, I was able to see the differences in the result.txt files.
 <img width="650" alt="Screen Shot 2022-06-05 at 7 48 13 PM" src="https://user-images.githubusercontent.com/98505287/172097073-9a88f5a8-6775-4832-b9ef-989a1566fe69.png">
 <img width="623" alt="Screen Shot 2022-06-05 at 9 53 02 PM" src="https://user-images.githubusercontent.com/98505287/172097123-9c77bce9-b621-4a08-bb04-54ac8782baa1.png">
 
