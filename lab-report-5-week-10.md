@@ -18,9 +18,13 @@ I was able to find the different results between implementations by using vimdif
 -The implementation in the markdown parser repository on my ieng6 account was correct.
 
 Actual Output:
+
+
 <img width="202" alt="Screen Shot 2022-06-05 at 10 03 11 PM" src="https://user-images.githubusercontent.com/98505287/172097988-70ecb241-331c-498e-a3a7-1ea3a3364bcf.png">
 
 Expected Output:
+
+
 <img width="645" alt="Screen Shot 2022-06-05 at 9 59 37 PM" src="https://user-images.githubusercontent.com/98505287/172097697-2c3f1775-a889-47a6-b323-395f91505130.png">
 There are no links as an expected output.
 
@@ -29,9 +33,13 @@ There are no links as an expected output.
 
 
 Actual Output:
+
+
 <img width="208" alt="Screen Shot 2022-06-05 at 10 04 56 PM" src="https://user-images.githubusercontent.com/98505287/172098151-437e8d7d-6c9c-4d0f-b98d-20f87d69e831.png">
 
 Expected Output:
+
+
 <img width="339" alt="Screen Shot 2022-06-05 at 10 06 15 PM" src="https://user-images.githubusercontent.com/98505287/172098251-00a6cfe4-a72e-4d63-85cc-b13849d152fc.png">
 
 There are no links as an expected output.
